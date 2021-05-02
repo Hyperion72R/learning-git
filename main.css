@@ -1,5 +1,5 @@
 .fadeOut {
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0s linear 400ms, opacity 400ms;
+  transition: visibility 0s linear 420ms, opacity 420ms;
 }
