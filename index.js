@@ -1,10 +1,12 @@
 let tog = document.getElementById("tog");
-tog.addEventListener("click", function() {
+tog.addEventListener("click", function () {
   tog.classList.toggle("m-fadeOut");
 });
 
-
 function Timeout() {
-  setTimeout(function() {
+  setTimeout(function () {
     tog.classList.toggle("btnTest");
-}, 500) }
+  }, 500);
+}
+
+console.log(tog);
